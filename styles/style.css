@@ -161,3 +161,40 @@ body {
         width: auto;
     }
 }
+
+.catalogo__list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.catalogo__titulo {
+    padding: 4%;
+}
+
+.titulo__secundario {
+    font-family: var(--font-secundaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.catalogo__imagens {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.imagem{
+    width: 200px;
+    height: 200px;
+}
+
+.titulo__filmes {
+    list-style-type: none;
+    text-align: center;
+    font-family: var(--font-secundaria);
+    font-size: 15px;
+}
